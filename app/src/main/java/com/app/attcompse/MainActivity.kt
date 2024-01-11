@@ -80,7 +80,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AttCompseTheme {
                 // A surface container using the 'background' color from the theme
-                
+                Log.e("Local","Added")
                 MyApp(modifier = Modifier.fillMaxSize())
                 /*Surface(
                     modifier = Modifier.fillMaxSize(),
